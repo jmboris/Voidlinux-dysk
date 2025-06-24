@@ -1,4 +1,4 @@
-Template for VoidLinux for dysk
+# Template for VoidLinux for dysk
 
 A linux utility to get information on filesystems, like df but better
 
