@@ -1,0 +1,18 @@
+# Template file for 'dysk'
+pkgname=dysk
+version=2.10.1
+revision=1
+build_style=cargo
+hostmakedepends="git"
+makedepends=""
+short_desc="Linux utility listing your filesystems."
+maintainer="JuanMa <numblinux@gmail.com>"
+license="MIT"
+homepage="https://github.com/Canop/dysk"
+changelog="https://github.com/Canop/dysk/blob/main/CHANGELOG.md"
+distfiles="https://github.com/Canop/dysk/archive/refs/tags/v${version}.tar.gz"
+checksum=3b7576b700b11052123a91780a6af26fbbd2560ad31fef917af8df8fcceffa04
+
+post_install() {
+	vlicense LICENSE
+}
